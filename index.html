@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W.GACEK — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="stars"></div>
+
+<section class="hero">
+    <div class="glass">
+        <h1>WITAJ W ŚWIECIE W.GACEK</h1>
+        <h2>GLOBAL AD <span class="mini">BOT CREATOR</span></h2>
+        <h3>2026 <span class="pro">PRO</span></h3>
+
+        <a class="yt" href="https://www.youtube.com/@W.GACEKK" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/YouTube_play_button_icon_%282013-2017%29.svg">
+        </a>
+    </div>
+</section>
+
+<section class="section">
+    <h1>SODA STREAM</h1>
+</section>
+
+<section class="section">
+    <h1>GLOBAL AD</h1>
+</section>
+
+<section class="contact-section">
+    <div class="glass contact-btn" onclick="openContact()">KONTAKT</div>
+</section>
+
+<div id="contactModal" class="modal">
+    <div class="modal-content glass">
+        <span class="close" onclick="closeContact()">&times;</span>
+        <p>KONTAKT: <b>chiller.exe</b> NA DISCORD</p>
+    </div>
+</div>
+
+<script>
+function openContact() {
+    document.getElementById('contactModal').style.display = 'flex';
+}
+function closeContact() {
+    document.getElementById('contactModal').style.display = 'none';
+}
+</script>
+
+</body>
+</html>
